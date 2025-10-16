@@ -1,0 +1,47 @@
+# ============================
+# 🌱 Global Ignore for MERN Stack
+# ============================
+
+# Node modules (frontend & backend)
+backend/node_modules/
+frontend/node_modules/
+
+# Environment files
+backend/.env
+frontend/.env
+
+# Build and dist folders
+frontend/build/
+frontend/dist/
+backend/build/
+backend/dist/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Coverage / testing
+coverage/
+*.lcov
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor folders/settings
+.vscode/
+.idea/
+
+# Optional: ignore temporary files
+*.tmp
+*.swp
+*.swo
+
+# ============================
+# 🧩 Optional: environment examples
+# ============================
+# You can include .env.example for reference
+# (do not ignore it if you want to share variable names)
+!.env.example
